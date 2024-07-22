@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ArrayList_Def {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-         // full covered in OOps array_Stringbuilder
+         // full covered in OOps array_String builder
 
         ArrayList<Integer> list = new ArrayList<Integer>(10); // 10 col is constructor we can create more objects than initial capacity
 

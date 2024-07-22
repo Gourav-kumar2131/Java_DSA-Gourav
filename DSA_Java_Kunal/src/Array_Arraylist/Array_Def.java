@@ -13,13 +13,13 @@ public class Array_Def {
         int roll5 = 13;
 
         // using array - DECLARATION & INITIALISATION
-//  1.      int[] roll = new int[5];
-//  2.     int[] a = new int[] { 1, 2, 3 };
+//      1.  int[] roll = new int[5];
+//      2.  int[] a = new int[] { 1, 2, 3 };
 
-//  3.       int[] rollAll = {12, 23, 34, 45, 55};
+//      3.  int[] rollAll = {12, 23, 34, 45, 55};
 
-//  4.      int ross;
-//        ross = new int[5];
+//      4.  int ross;
+//          ross = new int[5];
 
         int[] roll = new int[5];
         roll[0]=23;
@@ -41,7 +41,7 @@ public class Array_Def {
          ros =  new int[5]; // initialisation , actually here object is being created here in the Heap memory # at Runtime( execution time)
 
         // NOTE :
-        // In java array may or  may not be continuous as Dynamic memory allocation occur for object creation in java and
+        // In java array's element may or  may not be continuous as Dynamic memory allocation occur for object creation in java and
         // Heap objects are not continuous java architecture says that.
 
         // String Array
