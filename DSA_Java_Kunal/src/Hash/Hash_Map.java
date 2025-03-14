@@ -16,21 +16,29 @@ public class Hash_Map {
 //        System.out.println( map.get("Gourav"));
 //
 //        System.out.println(map.containsKey("Kunal"));
+//        System.out.println(map.containsValue(133));
 //
 //        System.out.println(map.remove("Gourav")); // if not exist return null
 //
 //        System.out.println(map.size());
 
+
 //        1st way to iterate the Hashmap.
 
         for( Map.Entry<String , Integer> e : map.entrySet()){
             System.out.println(e.getKey());
+            System.out.println(e.getValue());
         }
 
 //        2nd way to iterate the Hashmap.
         Set<String> mapkey = map.keySet();
         for(String key : mapkey){
             System.out.println(key+ " "+ map.get(key));
+        }
+
+        for(int freq : map.values()){
+            System.out.println(freq);
+
         }
 
 
